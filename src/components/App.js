@@ -20,12 +20,21 @@ const b1 = {
 	classes: 'btn'
 }
 
+//simple ones
+// const para1 = `div id:myId class:heading:large:myClass %%this is a paragraph.. fine
+// 	button id:btlarge-btn class:submit %%Submit
+//	?customComponent props:fine %%content if any
+// `
+
 export default function App(){
 	return {
 		tag: 'div',
-		id: 'myFirstImport',
-		classes: 'myclass',
+		attributes:{
+			id: 'myFirstImport',
+			classes: 'myclass'
+		},
 		content: "Hello bhai kaisa hain",
 		children:[p1, p2, p3, b1]
 	}
 }
+//hence App should return a string..

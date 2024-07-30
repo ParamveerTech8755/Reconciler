@@ -1,5 +1,5 @@
 import App from "./components/App.js"
-import execute from "./executeComponent.js"
+import execute from "../main/executeComponent.js"
 
 const root = document.createElement('div');
 root.id = "root";
