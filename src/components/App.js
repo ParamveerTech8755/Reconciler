@@ -26,7 +26,25 @@ const b1 = {
 //	?customComponent props:fine %%content if any
 // `
 
+
 export default function App(){
+
+	return [
+			`div id::myFirstImport class::myclass::yourclass %%Hello bhai kaisa hain
+				p class::para %%I am doing good
+				p class::para %% Fine
+				p class::para %% Yo whats up
+				button id::my-btn class::btn %% doing good
+				;;
+			div id::anotherdiv %% this is another div
+			;;
+			header %%whats up
+				a href::https://www.google.com %% click here
+				;;
+			hr;;
+			hr;;
+			hr`
+		, {}]
 	return {
 		tag: 'div',
 		attributes:{
